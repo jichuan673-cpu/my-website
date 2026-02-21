@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts の読み込み -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome (アイコン用) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ヘッダー / ナビゲーション -->
+    <header class="navbar">
+        <div class="logo">Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ヒーローセクション -->
+        <section id="hero" class="hero-section text-center">
+            <h1>Hello, I'm a Developer.</h1>
+            <p>Welcome to my personal portfolio website.</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        </section>
+
+        <!-- 自己紹介セクション -->
+        <section id="about" class="section bg-white text-center">
+            <div class="container fade-in">
+                <h2>About Me</h2>
+                <div class="section-divider"></div>
+                <p>こんにちは。私はWeb開発者として日々新しい技術への挑戦を続けています。<br>シンプルで美しく、使いやすいUI/UXを追求し、モダンなWebサイトを構築します。</p>
+            </div>
+        </section>
+
+        <!-- スキル一覧セクション -->
+        <section id="skills" class="section bg-light text-center">
+            <div class="container fade-in">
+                <h2>Skills</h2>
+                <div class="section-divider"></div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Frontend</h3>
+                        <p>HTML5, CSS3, JavaScript, React</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-server"></i>
+                        <h3>Backend</h3>
+                        <p>Node.js, Python, Database Design</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h3>Design</h3>
+                        <p>UI/UX Design, Responsive Layout</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お問い合わせセクション -->
+        <section id="contact" class="section bg-blue text-center text-white">
+            <div class="container fade-in">
+                <h2>Contact</h2>
+                <div class="section-divider-white"></div>
+                <p>プロジェクトのご相談やお問い合わせなど、お気軽にご連絡ください。<br>新しい機会を心よりお待ちしております。</p>
+                <a href="mailto:example@example.com" class="btn btn-outline" aria-label="お問い合わせ">Contact Me</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer text-center">
+        <div class="social-links">
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScriptファイルの読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>
